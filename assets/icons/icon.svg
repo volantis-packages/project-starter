@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="547.38385"
+   height="547.38385"
+   viewBox="0 0 144.82864 144.82864"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#2f2a2a;stop-opacity:0.7126866;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#9d7af7;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#29b6fd;stop-opacity:0.92732561;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="38.992325"
+       y1="18.736572"
+       x2="120.52174"
+       y2="139.00511"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.78444572,0,0,0.78444572,16.914683,17.674741)" />
+    <linearGradient
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="148.3734"
+       y1="152.17136"
+       x2="10.127877"
+       y2="7.342711"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-6.8363171,-7.0895143)">
+    <rect
+       style="opacity:0.91791;fill:url(#linearGradient4);fill-opacity:1;stroke:none;stroke-width:0.265;stroke-dasharray:none"
+       id="rect2"
+       width="144.82864"
+       height="144.82864"
+       x="6.8363171"
+       y="7.0895143"
+       ry="6.5831203" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:136.764px;font-family:Candara;-inkscape-font-specification:'Candara Bold';fill:url(#linearGradient2);fill-opacity:1;stroke-width:0.256433"
+       x="39.18306"
+       y="126.91714"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:136.764px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono Bold';fill:url(#linearGradient2);fill-opacity:1;stroke-width:0.256433"
+         x="39.18306"
+         y="126.91714">V</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+{
+    "parameters": {
+        "app.website_url": "",
+        "app.short_description": "The start of a really cool project!",
+        "app.long_description": "The start of a really cool project!",
+        "app.by_line": "",
+        "app.custom_tray_menu": true,
+        "app.developer": "My Organization",
+        "app.has_settings": true,
+        "app.default_theme": "steamcore",
+        "app.has_main_window": true,
+        "app.show_about_menu_item": true,
+        "app.show_website_menu_item": true,
+        "app.links": [
+            "Contribute to the project at <a href=\"https://somewhere\">My site</a>"
+        ],
+        "config.double_click_action": "Edit",
+        "config.file_field": "@@{data_dir}\\my_file.json",
+        "config.boolean_setting": false
+    },
+    "services": {
+        "cache_state.local": {
+            "class": "CacheState",
+            "arguments": ["@@config.cache_dir", "local.json", "@version.sorter", "@@version"]
+        },
+        "cache.local": {
+            "class": "FileCache",
+            "arguments": ["@@tmp_dir", "@cache_state.local", "@@config.cache_dir", "local"]
+        },
+        "config.app": {
+            "class": "MyAppConfig",
+            "arguments": ["@config_storage.app_config", "@{}", "@@config_key"]
+        },
+        "state.app": {
+            "class": "MyAppState",
+            "arguments": ["@@state_path", "@version.sorter", "@@version"]
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "volantis/project-starter",
+    "type": "application",
+    "description": "The start of a really cool project!",
+    "website": "",
+    "authors": [{
+        "name": "Ben McClure",
+        "email": "ben@volantisdev.com"
+    }],
+    "entry": {
+        "main": "MyApp.ahk",
+        "test": "volantis/commands/Test.ahk",
+        "build": "volantis/commands/Build.ahk"
+    },
+    "icon": "assets/icons/icon.ico",
+    "require": {
+        "volantis/app": "^1.0 || dev-main",
+        "volantis/material-icons": "^1.0 || dev-main"
+    },
+    "libraries": {
+        "MyApp": "lib"
+    },
+    "repositories": [{
+        "type": "volantis",
+        "location": "https://packages.volantis.dev"
+    }],
+    "scripts": {
+        "post-create-project": [
+            "scripts/post-create-project.ahk"
+        ]
+    },
+    "paths": {
+        "package": "volantis/packages",
+        "application": "volantis/applications",
+        "script": "volantis/scripts",
+        "command": "volantis/commands",
+        "module": "volantis/modules",
+        "theme": "assets/themes/managed",
+        "image-pack": "assets/images/managed",
+        "icon-pack": "assets/icons/managed",
+        "external": "assets/ext/managed"
+    }
+}
